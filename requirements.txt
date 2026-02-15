@@ -1,0 +1,16 @@
+# PDF処理
+pymupdf
+pypdf
+
+# Embedding & Vector DB
+sentence-transformers
+chromadb
+torch
+
+# Sparse検索用
+transformers
+tokenizers
+
+# ユーティリティ
+numpy
+tqdm
