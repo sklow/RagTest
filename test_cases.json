@@ -1,0 +1,145 @@
+{
+  "test_cases": [
+    {
+      "id": "semantic_01",
+      "category": "semantic",
+      "query": "power supply requirements for the chip",
+      "expected_keywords": ["voltage", "VCC", "supply", "power", "3.3", "5.0"],
+      "description": "セマンティック: データシート内のVCC仕様を意味的に検索",
+      "difficulty": "easy"
+    },
+    {
+      "id": "semantic_02",
+      "category": "semantic",
+      "query": "how to move the motor smoothly without vibration",
+      "expected_keywords": ["ramp", "acceleration", "velocity", "motion", "profile"],
+      "description": "セマンティック: モーション制御の概念を言い換えて検索",
+      "difficulty": "medium"
+    },
+    {
+      "id": "semantic_03",
+      "category": "semantic",
+      "query": "communicating with the controller through serial protocol",
+      "expected_keywords": ["SPI", "interface", "communication", "register", "data"],
+      "description": "セマンティック: SPIの概念を一般的な言い回しで検索",
+      "difficulty": "medium"
+    },
+    {
+      "id": "keyword_01",
+      "category": "keyword",
+      "query": "TMC4361A SPI",
+      "expected_keywords": ["TMC4361A", "SPI"],
+      "description": "キーワード: 正確な型番+プロトコル名",
+      "difficulty": "easy"
+    },
+    {
+      "id": "keyword_02",
+      "category": "keyword",
+      "query": "XACTUAL register position",
+      "expected_keywords": ["XACTUAL", "register", "position"],
+      "description": "キーワード: レジスタ名による正確な検索",
+      "difficulty": "medium"
+    },
+    {
+      "id": "keyword_03",
+      "category": "keyword",
+      "query": "encoder ABN interface",
+      "expected_keywords": ["encoder", "ABN", "interface"],
+      "description": "キーワード: エンコーダインタフェースの略語検索",
+      "difficulty": "medium"
+    },
+    {
+      "id": "compound_01",
+      "category": "compound",
+      "query": "How to configure the ramp generator for smooth acceleration",
+      "expected_keywords": ["ramp", "generator", "acceleration", "configure", "velocity"],
+      "description": "複合: セマンティック理解+技術キーワードの両方が必要",
+      "difficulty": "medium"
+    },
+    {
+      "id": "compound_02",
+      "category": "compound",
+      "query": "TMC4361A closed-loop position control with encoder feedback",
+      "expected_keywords": ["closed-loop", "position", "encoder", "feedback", "control"],
+      "description": "複合: 型番+制御概念+フィードバック機構",
+      "difficulty": "hard"
+    },
+    {
+      "id": "compound_03",
+      "category": "compound",
+      "query": "SPI register configuration for velocity mode operation",
+      "expected_keywords": ["SPI", "register", "velocity", "mode", "configuration"],
+      "description": "複合: 通信プロトコル+レジスタ+動作モード",
+      "difficulty": "hard"
+    },
+    {
+      "id": "edge_01",
+      "category": "edge",
+      "query": "voltage",
+      "expected_keywords": ["voltage"],
+      "description": "エッジ: 極めて短い1語クエリ",
+      "difficulty": "easy"
+    },
+    {
+      "id": "edge_02",
+      "category": "edge",
+      "query": "What is the detailed step-by-step procedure for configuring the TMC4361A motion controller to operate in closed-loop position mode with an ABN encoder providing feedback while using SPI communication to set all necessary registers?",
+      "expected_keywords": ["TMC4361A", "closed-loop", "position", "encoder", "SPI", "register"],
+      "description": "エッジ: 非常に長い詳細クエリ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "edge_03",
+      "category": "edge",
+      "query": "chip features",
+      "expected_keywords": ["feature", "TMC4361A"],
+      "description": "エッジ: 曖昧で一般的なクエリ",
+      "difficulty": "medium"
+    },
+    {
+      "id": "technical_01",
+      "category": "technical",
+      "query": "RAMPMODE register settings",
+      "expected_keywords": ["RAMPMODE", "register"],
+      "description": "技術: ランプモードレジスタの設定",
+      "difficulty": "medium"
+    },
+    {
+      "id": "technical_02",
+      "category": "technical",
+      "query": "microstep resolution configuration",
+      "expected_keywords": ["microstep", "resolution"],
+      "description": "技術: マイクロステップ分解能の設定",
+      "difficulty": "medium"
+    },
+    {
+      "id": "technical_03",
+      "category": "technical",
+      "query": "clock frequency oscillator",
+      "expected_keywords": ["clock", "frequency", "MHz"],
+      "description": "技術: クロック周波数・オシレータ仕様",
+      "difficulty": "medium"
+    },
+    {
+      "id": "technical_04",
+      "category": "technical",
+      "query": "target position XTARGET",
+      "expected_keywords": ["XTARGET", "target", "position"],
+      "description": "技術: ターゲットポジションレジスタ",
+      "difficulty": "easy"
+    }
+  ],
+  "metadata": {
+    "total_cases": 16,
+    "categories": {
+      "semantic": 3,
+      "keyword": 3,
+      "compound": 3,
+      "edge": 3,
+      "technical": 4
+    },
+    "created_date": "2026-02-14",
+    "target_document": "TMC4361A_datasheet_rev1.26_01.pdf",
+    "description": "RAGシステムのモデル比較評価用テストケース"
+  }
+}
