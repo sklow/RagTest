@@ -1,0 +1,1242 @@
+[
+  {
+    "alpha": 0.0,
+    "avg_search_time": 0.18271660804748535,
+    "avg_keyword_match": 0.48777777777777775,
+    "avg_top_score": 1.0,
+    "query_results": [
+      {
+        "query": "What is the maximum voltage?",
+        "search_time": 0.2021009922027588,
+        "keyword_match_score": 0.13333333333333333,
+        "top_score": 1.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_936",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "activated. \n1 \nClosed-loop calibration is active. \n! \nUse maximum current without scaling during calibration. \n! \nIt is recommend to keep the motor dr"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_879",
+            "score": 0.8578431372549021,
+            "dense_score": 0.0,
+            "sparse_score": 0.8578431372549021,
+            "text_preview": "s located at the rising edge of the active range. \n3 \nHOME_REF = 0 indicates negative region/position from the home position. \n4 \nHOME_REF = 1 indicat"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_808",
+            "score": 0.7211538461538468,
+            "dense_score": 0.0,
+            "sparse_score": 0.7211538461538468,
+            "text_preview": "I regulator, which controls the maximum velocity. \n \nI parameter of the PI regulator, which controls the maximum velocity. \n \nPID_DV_CLIP can be set i"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_903",
+            "score": 0.7211538461538468,
+            "dense_score": 0.0,
+            "sparse_score": 0.7211538461538468,
+            "text_preview": "a SPI output interface. \n19:13 \nCOVER_DATA_LENGTH \nU \nNumber of bits for the complete datagram length. Maximum value = 64 \nSet to 0 in case a TMC step"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_1003",
+            "score": 0.5896226415094343,
+            "dense_score": 0.0,
+            "sparse_score": 0.5896226415094343,
+            "text_preview": "Open-loop operation) \n(Closed-loop or PID active) \nW \nCL_TR_TOLERANCE (Default: 0x00000000) \n(Closed-loop operation) \nS \nTolerated absolute tolerance "
+          }
+        ]
+      },
+      {
+        "query": "SPI interface configuration",
+        "search_time": 0.16889715194702148,
+        "keyword_match_score": 0.75,
+        "top_score": 1.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_1102",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "................ 170 \nTable 62: Dedicated Reset and Clock Gating Registers .......................................................................... "
+          },
+          {
+            "rank": 2,
+            "id": "chunk_39",
+            "score": 0.9114285714285716,
+            "dense_score": 0.0,
+            "sparse_score": 0.9114285714285716,
+            "text_preview": ".............................................. 91 \n10.2.4. \nCurrent Waves Start Values ..............................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_902",
+            "score": 0.6092436974789918,
+            "dense_score": 0.0,
+            "sparse_score": 0.6092436974789918,
+            "text_preview": "to the stepper motor driver. S/D output interface \nprovides steps. \n12 \nSPI output interface is connected with a TMC2130 / TMC2160 stepper motor \ndriv"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_65",
+            "score": 0.3186813186813188,
+            "dense_score": 0.0,
+            "sparse_score": 0.3186813186813188,
+            "text_preview": "............................................. 156 \n15.4.11. SPI Encoder Configuration via TMC4361A ..................................................."
+          },
+          {
+            "rank": 5,
+            "id": "chunk_901",
+            "score": 0.3186813186813188,
+            "dense_score": 0.0,
+            "sparse_score": 0.3186813186813188,
+            "text_preview": "ected with a SPI-DAC. The actual unsigned scaling \nfactor is merged with DAC_ADDR_A value to an output datagram. \n8 \nSPI output interface is connected"
+          }
+        ]
+      },
+      {
+        "query": "Motor control operation",
+        "search_time": 0.19633102416992188,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 1.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_66",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_68",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 164 \n16.3.5. \nEnabling Closed-Loop Velocity Mode ......................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_778",
+            "score": 0.26310483870967744,
+            "dense_score": 1.0,
+            "sparse_score": 0.26310483870967744,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 4,
+            "id": "chunk_826",
+            "score": 0.19903846153846164,
+            "dense_score": 0.10467421081845692,
+            "sparse_score": 0.19903846153846164,
+            "text_preview": "he Supplemental Directives in chapter 23, p. 228. \n \n \n MAIN MANUAL  \n \n16.3.8. Back-EMF Compensation during Closed-loop Operation \nWhen higher velo"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_175",
+            "score": 0.1406250000000001,
+            "dense_score": 0.0,
+            "sparse_score": 0.1406250000000001,
+            "text_preview": "ded system behavior during closed loop operation! \n \nThis will ensure smooth operation during closed loop operation. \n \n \n \n \n \nHow to change \nMotion "
+          }
+        ]
+      },
+      {
+        "query": "TMC4361A specifications",
+        "search_time": 0.16549086570739746,
+        "keyword_match_score": 0.3333333333333333,
+        "top_score": 1.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_10",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "....................... 1 \nApplications .............................................................................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_13",
+            "score": 0.43181818181818177,
+            "dense_score": 0.12123310493634877,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": ".............................................. 14 \n2.2. \nTMC4361A with TMC26x Stepper Connection......................................................"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_12",
+            "score": 0.43181818181818177,
+            "dense_score": 0.0,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": ".............................................. 10 \n1.2. \nPin Description ............................................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_88",
+            "score": 0.43181818181818177,
+            "dense_score": 0.0,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": "............................................. 228 \n24. Tables Index .................................................................................."
+          },
+          {
+            "rank": 5,
+            "id": "chunk_70",
+            "score": 0.34545454545454557,
+            "dense_score": 0.0,
+            "sparse_score": 0.34545454545454557,
+            "text_preview": "..............................................170 \n17.1. \nManual Hardware Reset ......................................................................"
+          }
+        ]
+      },
+      {
+        "query": "Closed-loop control",
+        "search_time": 0.18076300621032715,
+        "keyword_match_score": 0.5555555555555555,
+        "top_score": 1.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_66",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_68",
+            "score": 1.0,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 164 \n16.3.5. \nEnabling Closed-Loop Velocity Mode ......................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_80",
+            "score": 0.21103896103896108,
+            "dense_score": 0.0,
+            "sparse_score": 0.21103896103896108,
+            "text_preview": "............................................. 208 \n19.25. \nEncoder Registers ........................................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_1109",
+            "score": 0.21103896103896108,
+            "dense_score": 0.0,
+            "sparse_score": 0.21103896103896108,
+            "text_preview": "............................................. 208 \nTable 89: Encoder Registers ......................................................................."
+          },
+          {
+            "rank": 5,
+            "id": "chunk_824",
+            "score": 0.16149068322981366,
+            "dense_score": 0.0,
+            "sparse_score": 0.16149068322981366,
+            "text_preview": "step per CL_DNSCALE_DELAY clock cycles until the \nassigned scale parameter is reached. \n \n \n \nFigure 68: Closed-Loop Current Scaling Timing Behavior \n"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "alpha": 0.3,
+    "avg_search_time": 0.15759868621826173,
+    "avg_keyword_match": 0.51,
+    "avg_top_score": 0.7,
+    "query_results": [
+      {
+        "query": "What is the maximum voltage?",
+        "search_time": 0.15212082862854004,
+        "keyword_match_score": 0.13333333333333333,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_936",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "activated. \n1 \nClosed-loop calibration is active. \n! \nUse maximum current without scaling during calibration. \n! \nIt is recommend to keep the motor dr"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_879",
+            "score": 0.6004901960784315,
+            "dense_score": 0.0,
+            "sparse_score": 0.8578431372549021,
+            "text_preview": "s located at the rising edge of the active range. \n3 \nHOME_REF = 0 indicates negative region/position from the home position. \n4 \nHOME_REF = 1 indicat"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_808",
+            "score": 0.5048076923076927,
+            "dense_score": 0.0,
+            "sparse_score": 0.7211538461538468,
+            "text_preview": "I regulator, which controls the maximum velocity. \n \nI parameter of the PI regulator, which controls the maximum velocity. \n \nPID_DV_CLIP can be set i"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_903",
+            "score": 0.5048076923076927,
+            "dense_score": 0.0,
+            "sparse_score": 0.7211538461538468,
+            "text_preview": "a SPI output interface. \n19:13 \nCOVER_DATA_LENGTH \nU \nNumber of bits for the complete datagram length. Maximum value = 64 \nSet to 0 in case a TMC step"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_1003",
+            "score": 0.412735849056604,
+            "dense_score": 0.0,
+            "sparse_score": 0.5896226415094343,
+            "text_preview": "Open-loop operation) \n(Closed-loop or PID active) \nW \nCL_TR_TOLERANCE (Default: 0x00000000) \n(Closed-loop operation) \nS \nTolerated absolute tolerance "
+          }
+        ]
+      },
+      {
+        "query": "SPI interface configuration",
+        "search_time": 0.15621185302734375,
+        "keyword_match_score": 0.75,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_1102",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "................ 170 \nTable 62: Dedicated Reset and Clock Gating Registers .......................................................................... "
+          },
+          {
+            "rank": 2,
+            "id": "chunk_39",
+            "score": 0.6380000000000001,
+            "dense_score": 0.0,
+            "sparse_score": 0.9114285714285716,
+            "text_preview": ".............................................. 91 \n10.2.4. \nCurrent Waves Start Values ..............................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_902",
+            "score": 0.4264705882352942,
+            "dense_score": 0.0,
+            "sparse_score": 0.6092436974789918,
+            "text_preview": "to the stepper motor driver. S/D output interface \nprovides steps. \n12 \nSPI output interface is connected with a TMC2130 / TMC2160 stepper motor \ndriv"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_40",
+            "score": 0.4242857142857142,
+            "dense_score": 1.0,
+            "sparse_score": 0.1775510204081632,
+            "text_preview": ".............................................. 95 \n10.3.1. \nHow to enable SPI Output Communication ..................................................."
+          },
+          {
+            "rank": 5,
+            "id": "chunk_65",
+            "score": 0.22307692307692317,
+            "dense_score": 0.0,
+            "sparse_score": 0.3186813186813188,
+            "text_preview": "............................................. 156 \n15.4.11. SPI Encoder Configuration via TMC4361A ..................................................."
+          }
+        ]
+      },
+      {
+        "query": "Motor control operation",
+        "search_time": 0.1579897403717041,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_66",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_68",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 164 \n16.3.5. \nEnabling Closed-Loop Velocity Mode ......................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_778",
+            "score": 0.48417338709677415,
+            "dense_score": 1.0,
+            "sparse_score": 0.26310483870967744,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 4,
+            "id": "chunk_807",
+            "score": 0.17969811455889986,
+            "dense_score": 0.5989937151963329,
+            "sparse_score": 0.0,
+            "text_preview": "| Document Revision V1.26 • 2020-AUG-03 \n164/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and rights to te"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_826",
+            "score": 0.1707291863224602,
+            "dense_score": 0.10467421081845692,
+            "sparse_score": 0.19903846153846164,
+            "text_preview": "he Supplemental Directives in chapter 23, p. 228. \n \n \n MAIN MANUAL  \n \n16.3.8. Back-EMF Compensation during Closed-loop Operation \nWhen higher velo"
+          }
+        ]
+      },
+      {
+        "query": "TMC4361A specifications",
+        "search_time": 0.15275311470031738,
+        "keyword_match_score": 0.3333333333333333,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_10",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "....................... 1 \nApplications .............................................................................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_13",
+            "score": 0.3386426587536318,
+            "dense_score": 0.12123310493634877,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": ".............................................. 14 \n2.2. \nTMC4361A with TMC26x Stepper Connection......................................................"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_87",
+            "score": 0.3088128265064475,
+            "dense_score": 0.5815646405433772,
+            "sparse_score": 0.19191919191919185,
+            "text_preview": "............................................. 226 \n22.2. \nTMC4361A connected to TMC26x ..............................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_12",
+            "score": 0.3022727272727272,
+            "dense_score": 0.0,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": ".............................................. 10 \n1.2. \nPin Description ............................................................................."
+          },
+          {
+            "rank": 5,
+            "id": "chunk_88",
+            "score": 0.3022727272727272,
+            "dense_score": 0.0,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": "............................................. 228 \n24. Tables Index .................................................................................."
+          }
+        ]
+      },
+      {
+        "query": "Closed-loop control",
+        "search_time": 0.16891789436340332,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_66",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_68",
+            "score": 0.7,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 164 \n16.3.5. \nEnabling Closed-Loop Velocity Mode ......................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_793",
+            "score": 0.3,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "modifies output currents and Step/Dir outputs of \nthe internal step generator; which is dependent on the feedback data. The 2-phase closed-\nloop contr"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_937",
+            "score": 0.28337329896289193,
+            "dense_score": 0.9445776632096398,
+            "sparse_score": 0.0,
+            "text_preview": "N. \n26 \ncl_clr_xact \n(Closed-loop operation only) \n0 \nXACTUAL is not reset to ENC_POS during closed-loop operation. \n1 \nXACTUAL is set to ENC_POS in c"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_1009",
+            "score": 0.2520427432408129,
+            "dense_score": 0.8401424774693763,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n211/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "alpha": 0.5,
+    "avg_search_time": 0.16188902854919435,
+    "avg_keyword_match": 0.5944444444444443,
+    "avg_top_score": 0.5440655859117841,
+    "query_results": [
+      {
+        "query": "What is the maximum voltage?",
+        "search_time": 0.15747284889221191,
+        "keyword_match_score": 0.3333333333333333,
+        "top_score": 0.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_1038",
+            "score": 0.5,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "ings: 5.0V supply \n \nMaximum Ratings: Temperature \nParameter \nSymbol \nMin \nMax \nUnit \nTemperature \nT \n−40 \n125 \n°C \nTable 98: Maximum Ratings: Tempera"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_936",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "activated. \n1 \nClosed-loop calibration is active. \n! \nUse maximum current without scaling during calibration. \n! \nIt is recommend to keep the motor dr"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_1040",
+            "score": 0.47713783618328387,
+            "dense_score": 0.9542756723665677,
+            "sparse_score": 0.0,
+            "text_preview": "aracteristics \nParameter \nSymbol \nConditions \nMin \nTyp \nMax \nUnit \nExtended temperature range \nTCOM \n \n−40°C \n \n125 \n°C \nNominal core voltage \nVDD \n \n"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_879",
+            "score": 0.42892156862745107,
+            "dense_score": 0.0,
+            "sparse_score": 0.8578431372549021,
+            "text_preview": "s located at the rising edge of the active range. \n3 \nHOME_REF = 0 indicates negative region/position from the home position. \n4 \nHOME_REF = 1 indicat"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_1037",
+            "score": 0.367741501993334,
+            "dense_score": 0.735483003986668,
+            "sparse_score": 0.0,
+            "text_preview": "d periods shall be avoided by application design. \n \nMaximum Ratings: 3.3V supply \nParameter (VCC = 3.3V nominal  TEST_MODE = 0V) \nSymbol \nMin \nMax \n"
+          }
+        ]
+      },
+      {
+        "query": "SPI interface configuration",
+        "search_time": 0.16629815101623535,
+        "keyword_match_score": 0.75,
+        "top_score": 0.5887755102040816,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_40",
+            "score": 0.5887755102040816,
+            "dense_score": 1.0,
+            "sparse_score": 0.1775510204081632,
+            "text_preview": ".............................................. 95 \n10.3.1. \nHow to enable SPI Output Communication ..................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_1102",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "................ 170 \nTable 62: Dedicated Reset and Clock Gating Registers .......................................................................... "
+          },
+          {
+            "rank": 3,
+            "id": "chunk_39",
+            "score": 0.4557142857142858,
+            "dense_score": 0.0,
+            "sparse_score": 0.9114285714285716,
+            "text_preview": ".............................................. 91 \n10.2.4. \nCurrent Waves Start Values ..............................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_114",
+            "score": 0.3463354116047611,
+            "dense_score": 0.6926708232095222,
+            "sparse_score": 0.0,
+            "text_preview": "ck. For every bit sent from the bus master to the \nbus slave, another bit is sent simultaneously from the slave to the master. In the following \nchapt"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_902",
+            "score": 0.3046218487394959,
+            "dense_score": 0.0,
+            "sparse_score": 0.6092436974789918,
+            "text_preview": "to the stepper motor driver. S/D output interface \nprovides steps. \n12 \nSPI output interface is connected with a TMC2130 / TMC2160 stepper motor \ndriv"
+          }
+        ]
+      },
+      {
+        "query": "Motor control operation",
+        "search_time": 0.17837119102478027,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.6315524193548387,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_778",
+            "score": 0.6315524193548387,
+            "dense_score": 1.0,
+            "sparse_score": 0.26310483870967744,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 2,
+            "id": "chunk_66",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_68",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 164 \n16.3.5. \nEnabling Closed-Loop Velocity Mode ......................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_807",
+            "score": 0.29949685759816647,
+            "dense_score": 0.5989937151963329,
+            "sparse_score": 0.0,
+            "text_preview": "| Document Revision V1.26 • 2020-AUG-03 \n164/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and rights to te"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_779",
+            "score": 0.2835793836953213,
+            "dense_score": 0.5671587673906426,
+            "sparse_score": 0.0,
+            "text_preview": "onnection between motor and drive side; e.g. belt \ndrives. \n \nClosed-Loop and PID Registers \nRegister Name \nRegister address \nRemarks \nENC_IN_CONF \n0x"
+          }
+        ]
+      },
+      {
+        "query": "TMC4361A specifications",
+        "search_time": 0.15352773666381836,
+        "keyword_match_score": 0.5555555555555555,
+        "top_score": 0.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_495",
+            "score": 0.5,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "motor driver specification, as explained before. \n--- Page 101 ---\nTMC4361A Datasheet | Document Revision V1.26 • 2020-AUG-03 \n101/235\n \n© 2019 TRINAM"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_10",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "....................... 1 \nApplications .............................................................................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_87",
+            "score": 0.3867419162312845,
+            "dense_score": 0.5815646405433772,
+            "sparse_score": 0.19191919191919185,
+            "text_preview": "............................................. 226 \n22.2. \nTMC4361A connected to TMC26x ..............................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_475",
+            "score": 0.2821151376948366,
+            "dense_score": 0.5642302753896732,
+            "sparse_score": 0.0,
+            "text_preview": "and rights to technical change reserved. \nDownload newest version at: www.trinamic.com. Read entire documentation; especially the Supplemental Directi"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_13",
+            "score": 0.27652564337726526,
+            "dense_score": 0.12123310493634877,
+            "sparse_score": 0.43181818181818177,
+            "text_preview": ".............................................. 14 \n2.2. \nTMC4361A with TMC26x Stepper Connection......................................................"
+          }
+        ]
+      },
+      {
+        "query": "Closed-loop control",
+        "search_time": 0.15377521514892578,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_793",
+            "score": 0.5,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "modifies output currents and Step/Dir outputs of \nthe internal step generator; which is dependent on the feedback data. The 2-phase closed-\nloop contr"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_66",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_68",
+            "score": 0.5,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 164 \n16.3.5. \nEnabling Closed-Loop Velocity Mode ......................................................."
+          },
+          {
+            "rank": 4,
+            "id": "chunk_937",
+            "score": 0.4722888316048199,
+            "dense_score": 0.9445776632096398,
+            "sparse_score": 0.0,
+            "text_preview": "N. \n26 \ncl_clr_xact \n(Closed-loop operation only) \n0 \nXACTUAL is not reset to ENC_POS during closed-loop operation. \n1 \nXACTUAL is set to ENC_POS in c"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_1009",
+            "score": 0.42007123873468816,
+            "dense_score": 0.8401424774693763,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n211/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "alpha": 0.7,
+    "avg_search_time": 0.16235156059265138,
+    "avg_keyword_match": 0.631111111111111,
+    "avg_top_score": 0.7264393515470704,
+    "query_results": [
+      {
+        "query": "What is the maximum voltage?",
+        "search_time": 0.16332697868347168,
+        "keyword_match_score": 0.6,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_1038",
+            "score": 0.7,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "ings: 5.0V supply \n \nMaximum Ratings: Temperature \nParameter \nSymbol \nMin \nMax \nUnit \nTemperature \nT \n−40 \n125 \n°C \nTable 98: Maximum Ratings: Tempera"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_1040",
+            "score": 0.6679929706565974,
+            "dense_score": 0.9542756723665677,
+            "sparse_score": 0.0,
+            "text_preview": "aracteristics \nParameter \nSymbol \nConditions \nMin \nTyp \nMax \nUnit \nExtended temperature range \nTCOM \n \n−40°C \n \n125 \n°C \nNominal core voltage \nVDD \n \n"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_1037",
+            "score": 0.5148381027906676,
+            "dense_score": 0.735483003986668,
+            "sparse_score": 0.0,
+            "text_preview": "d periods shall be avoided by application design. \n \nMaximum Ratings: 3.3V supply \nParameter (VCC = 3.3V nominal  TEST_MODE = 0V) \nSymbol \nMin \nMax \n"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_1036",
+            "score": 0.46369792902304235,
+            "dense_score": 0.6624256128900605,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n217/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_243",
+            "score": 0.4372591699169983,
+            "dense_score": 0.6246559570242833,
+            "sparse_score": 0.0,
+            "text_preview": "es are always defined as pulses per second [pps]. \nVACTUAL is given as a 32-bit signed value with no decimal places. The unsigned \nvelocity values VST"
+          }
+        ]
+      },
+      {
+        "query": "SPI interface configuration",
+        "search_time": 0.15229105949401855,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.7532653061224489,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_40",
+            "score": 0.7532653061224489,
+            "dense_score": 1.0,
+            "sparse_score": 0.1775510204081632,
+            "text_preview": ".............................................. 95 \n10.3.1. \nHow to enable SPI Output Communication ..................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_114",
+            "score": 0.48486957624666555,
+            "dense_score": 0.6926708232095222,
+            "sparse_score": 0.0,
+            "text_preview": "ck. For every bit sent from the bus master to the \nbus slave, another bit is sent simultaneously from the slave to the master. In the following \nchapt"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_1102",
+            "score": 0.30000000000000004,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "................ 170 \nTable 62: Dedicated Reset and Clock Gating Registers .......................................................................... "
+          },
+          {
+            "rank": 4,
+            "id": "chunk_760",
+            "score": 0.27784361833265286,
+            "dense_score": 0.3969194547609327,
+            "sparse_score": 0.0,
+            "text_preview": "he Supplemental Directives in chapter 23, p. 228. \n \n \n MAIN MANUAL  \n \n15.4.9. SPI Encoder Data Evaluation \nSPI encoder interfaces typically consis"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_39",
+            "score": 0.2734285714285715,
+            "dense_score": 0.0,
+            "sparse_score": 0.9114285714285716,
+            "text_preview": ".............................................. 91 \n10.2.4. \nCurrent Waves Start Values ..............................................................."
+          }
+        ]
+      },
+      {
+        "query": "Motor control operation",
+        "search_time": 0.15321588516235352,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.7789314516129032,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_778",
+            "score": 0.7789314516129032,
+            "dense_score": 1.0,
+            "sparse_score": 0.26310483870967744,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 2,
+            "id": "chunk_807",
+            "score": 0.41929560063743304,
+            "dense_score": 0.5989937151963329,
+            "sparse_score": 0.0,
+            "text_preview": "| Document Revision V1.26 • 2020-AUG-03 \n164/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and rights to te"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_779",
+            "score": 0.3970111371734498,
+            "dense_score": 0.5671587673906426,
+            "sparse_score": 0.0,
+            "text_preview": "onnection between motor and drive side; e.g. belt \ndrives. \n \nClosed-Loop and PID Registers \nRegister Name \nRegister address \nRemarks \nENC_IN_CONF \n0x"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_871",
+            "score": 0.33332754391305125,
+            "dense_score": 0.47618220559007324,
+            "sparse_score": 0.0,
+            "text_preview": "ernal revolutions) is forwarded at register 0x36. \n28 \nreverse_motor_dir \n0 \nThe direction of the internal SinLUT is regularly used. \n1 \nThe direction"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_66",
+            "score": 0.30000000000000004,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          }
+        ]
+      },
+      {
+        "query": "TMC4361A specifications",
+        "search_time": 0.17200183868408203,
+        "keyword_match_score": 0.5555555555555555,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_495",
+            "score": 0.7,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "motor driver specification, as explained before. \n--- Page 101 ---\nTMC4361A Datasheet | Document Revision V1.26 • 2020-AUG-03 \n101/235\n \n© 2019 TRINAM"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_87",
+            "score": 0.4646710059561216,
+            "dense_score": 0.5815646405433772,
+            "sparse_score": 0.19191919191919185,
+            "text_preview": "............................................. 226 \n22.2. \nTMC4361A connected to TMC26x ..............................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_475",
+            "score": 0.3949611927727712,
+            "dense_score": 0.5642302753896732,
+            "sparse_score": 0.0,
+            "text_preview": "and rights to technical change reserved. \nDownload newest version at: www.trinamic.com. Read entire documentation; especially the Supplemental Directi"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_10",
+            "score": 0.30000000000000004,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "....................... 1 \nApplications .............................................................................................................."
+          },
+          {
+            "rank": 5,
+            "id": "chunk_1056",
+            "score": 0.21711837750949964,
+            "dense_score": 0.31016911072785663,
+            "sparse_score": 0.0,
+            "text_preview": "driver chips \nthat are presented in this chapter. \n \n \n22.1. TMC4361A connected to TMC2130 resp. TMC2160 \n \nThe following figure pictures an overview "
+          }
+        ]
+      },
+      {
+        "query": "Closed-loop control",
+        "search_time": 0.17092204093933105,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_793",
+            "score": 0.7,
+            "dense_score": 1.0,
+            "sparse_score": 0.0,
+            "text_preview": "modifies output currents and Step/Dir outputs of \nthe internal step generator; which is dependent on the feedback data. The 2-phase closed-\nloop contr"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_937",
+            "score": 0.6612043642467478,
+            "dense_score": 0.9445776632096398,
+            "sparse_score": 0.0,
+            "text_preview": "N. \n26 \ncl_clr_xact \n(Closed-loop operation only) \n0 \nXACTUAL is not reset to ENC_POS during closed-loop operation. \n1 \nXACTUAL is set to ENC_POS in c"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_1009",
+            "score": 0.5880997342285634,
+            "dense_score": 0.8401424774693763,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n211/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_778",
+            "score": 0.3345862558199948,
+            "dense_score": 0.47798036545713546,
+            "sparse_score": 0.0,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 5,
+            "id": "chunk_66",
+            "score": 0.30000000000000004,
+            "dense_score": 0.0,
+            "sparse_score": 1.0,
+            "text_preview": "............................................. 158 \n16.2. \nPID-based Control of XACTUAL ..............................................................."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "alpha": 1.0,
+    "avg_search_time": 0.03401627540588379,
+    "avg_keyword_match": 0.6144444444444443,
+    "avg_top_score": 0.5396898269653321,
+    "query_results": [
+      {
+        "query": "What is the maximum voltage?",
+        "search_time": 0.03980207443237305,
+        "keyword_match_score": 0.6,
+        "top_score": 0.4277442693710327,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_1038",
+            "score": 0.4277442693710327,
+            "dense_score": 0.4277442693710327,
+            "sparse_score": 0.0,
+            "text_preview": "ings: 5.0V supply \n \nMaximum Ratings: Temperature \nParameter \nSymbol \nMin \nMax \nUnit \nTemperature \nT \n−40 \n125 \n°C \nTable 98: Maximum Ratings: Tempera"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_1040",
+            "score": 0.4211732745170593,
+            "dense_score": 0.4211732745170593,
+            "sparse_score": 0.0,
+            "text_preview": "aracteristics \nParameter \nSymbol \nConditions \nMin \nTyp \nMax \nUnit \nExtended temperature range \nTCOM \n \n−40°C \n \n125 \n°C \nNominal core voltage \nVDD \n \n"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_1037",
+            "score": 0.3897308111190796,
+            "dense_score": 0.3897308111190796,
+            "sparse_score": 0.0,
+            "text_preview": "d periods shall be avoided by application design. \n \nMaximum Ratings: 3.3V supply \nParameter (VCC = 3.3V nominal  TEST_MODE = 0V) \nSymbol \nMin \nMax \n"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_1036",
+            "score": 0.3792318105697632,
+            "dense_score": 0.3792318105697632,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n217/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_243",
+            "score": 0.373803973197937,
+            "dense_score": 0.373803973197937,
+            "sparse_score": 0.0,
+            "text_preview": "es are always defined as pulses per second [pps]. \nVACTUAL is given as a 32-bit signed value with no decimal places. The unsigned \nvelocity values VST"
+          }
+        ]
+      },
+      {
+        "query": "SPI interface configuration",
+        "search_time": 0.03691506385803223,
+        "keyword_match_score": 0.5833333333333334,
+        "top_score": 0.6228541731834412,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_40",
+            "score": 0.6228541731834412,
+            "dense_score": 0.6228541731834412,
+            "sparse_score": 0.0,
+            "text_preview": ".............................................. 95 \n10.3.1. \nHow to enable SPI Output Communication ..................................................."
+          },
+          {
+            "rank": 2,
+            "id": "chunk_114",
+            "score": 0.5997463464736938,
+            "dense_score": 0.5997463464736938,
+            "sparse_score": 0.0,
+            "text_preview": "ck. For every bit sent from the bus master to the \nbus slave, another bit is sent simultaneously from the slave to the master. In the following \nchapt"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_760",
+            "score": 0.5775090456008911,
+            "dense_score": 0.5775090456008911,
+            "sparse_score": 0.0,
+            "text_preview": "he Supplemental Directives in chapter 23, p. 228. \n \n \n MAIN MANUAL  \n \n15.4.9. SPI Encoder Data Evaluation \nSPI encoder interfaces typically consis"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_772",
+            "score": 0.5736383199691772,
+            "dense_score": 0.5736383199691772,
+            "sparse_score": 0.0,
+            "text_preview": "between microcontroller and encoder unnecessary. \n \nA configuration request is sent using the settings of SERIAL_ADDR_BITS and \nSERIAL_DATA_BITS, whic"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_470",
+            "score": 0.567499041557312,
+            "dense_score": 0.567499041557312,
+            "sparse_score": 0.0,
+            "text_preview": "enable = 0 (bit24 of GENERAL_CONF register 0x00). \ni \n SPI out is the default preconfigured setting. \nPins dedicated \nto SPI Output \nCommunication \n--"
+          }
+        ]
+      },
+      {
+        "query": "Motor control operation",
+        "search_time": 0.026546001434326172,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.476590633392334,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_778",
+            "score": 0.476590633392334,
+            "dense_score": 0.476590633392334,
+            "sparse_score": 0.0,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 2,
+            "id": "chunk_807",
+            "score": 0.4498927593231201,
+            "dense_score": 0.4498927593231201,
+            "sparse_score": 0.0,
+            "text_preview": "| Document Revision V1.26 • 2020-AUG-03 \n164/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and rights to te"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_779",
+            "score": 0.447773277759552,
+            "dense_score": 0.447773277759552,
+            "sparse_score": 0.0,
+            "text_preview": "onnection between motor and drive side; e.g. belt \ndrives. \n \nClosed-Loop and PID Registers \nRegister Name \nRegister address \nRemarks \nENC_IN_CONF \n0x"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_871",
+            "score": 0.4417163133621216,
+            "dense_score": 0.4417163133621216,
+            "sparse_score": 0.0,
+            "text_preview": "ernal revolutions) is forwarded at register 0x36. \n28 \nreverse_motor_dir \n0 \nThe direction of the internal SinLUT is regularly used. \n1 \nThe direction"
+          },
+          {
+            "rank": 5,
+            "id": "chunk_481",
+            "score": 0.4333701729774475,
+            "dense_score": 0.4333701729774475,
+            "sparse_score": 0.0,
+            "text_preview": "s selected automatically, dependent on the chosen \nmotor driver. More details are provided on the subsequent pages. \n--- Page 98 ---\nTMC4361A Datashee"
+          }
+        ]
+      },
+      {
+        "query": "TMC4361A specifications",
+        "search_time": 0.03327798843383789,
+        "keyword_match_score": 0.5555555555555555,
+        "top_score": 0.6465916037559509,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_495",
+            "score": 0.6465916037559509,
+            "dense_score": 0.6465916037559509,
+            "sparse_score": 0.0,
+            "text_preview": "motor driver specification, as explained before. \n--- Page 101 ---\nTMC4361A Datasheet | Document Revision V1.26 • 2020-AUG-03 \n101/235\n \n© 2019 TRINAM"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_87",
+            "score": 0.6236125230789185,
+            "dense_score": 0.6236125230789185,
+            "sparse_score": 0.0,
+            "text_preview": "............................................. 226 \n22.2. \nTMC4361A connected to TMC26x ..............................................................."
+          },
+          {
+            "rank": 3,
+            "id": "chunk_475",
+            "score": 0.6226605772972107,
+            "dense_score": 0.6226605772972107,
+            "sparse_score": 0.0,
+            "text_preview": "and rights to technical change reserved. \nDownload newest version at: www.trinamic.com. Read entire documentation; especially the Supplemental Directi"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_1056",
+            "score": 0.608708381652832,
+            "dense_score": 0.608708381652832,
+            "sparse_score": 0.0,
+            "text_preview": "driver chips \nthat are presented in this chapter. \n \n \n22.1. TMC4361A connected to TMC2130 resp. TMC2160 \n \nThe following figure pictures an overview "
+          },
+          {
+            "rank": 5,
+            "id": "chunk_6",
+            "score": 0.6067908406257629,
+            "dense_score": 0.6067908406257629,
+            "sparse_score": 0.0,
+            "text_preview": "4361A with the TMC262, the TMC261 or the TMC2660. \n \nFigure 4: Hardware Set-up for Closed-loop Operation with TMC262 \n \nA typical hardware setup for D"
+          }
+        ]
+      },
+      {
+        "query": "Closed-loop control",
+        "search_time": 0.03354024887084961,
+        "keyword_match_score": 0.6666666666666666,
+        "top_score": 0.5246684551239014,
+        "results": [
+          {
+            "rank": 1,
+            "id": "chunk_793",
+            "score": 0.5246684551239014,
+            "dense_score": 0.5246684551239014,
+            "sparse_score": 0.0,
+            "text_preview": "modifies output currents and Step/Dir outputs of \nthe internal step generator; which is dependent on the feedback data. The 2-phase closed-\nloop contr"
+          },
+          {
+            "rank": 2,
+            "id": "chunk_937",
+            "score": 0.5200396776199341,
+            "dense_score": 0.5200396776199341,
+            "sparse_score": 0.0,
+            "text_preview": "N. \n26 \ncl_clr_xact \n(Closed-loop operation only) \n0 \nXACTUAL is not reset to ENC_POS during closed-loop operation. \n1 \nXACTUAL is set to ENC_POS in c"
+          },
+          {
+            "rank": 3,
+            "id": "chunk_1009",
+            "score": 0.5113174319267273,
+            "dense_score": 0.5113174319267273,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n211/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          },
+          {
+            "rank": 4,
+            "id": "chunk_778",
+            "score": 0.48107028007507324,
+            "dense_score": 0.48107028007507324,
+            "sparse_score": 0.0,
+            "text_preview": "Possible Regulation Options with Encoder Feedback \nBeyond simple feedback monitoring, encoder feedback can be used for controlling motion \ncontroller "
+          },
+          {
+            "rank": 5,
+            "id": "chunk_816",
+            "score": 0.47324323654174805,
+            "dense_score": 0.47324323654174805,
+            "sparse_score": 0.0,
+            "text_preview": "Datasheet | Document Revision V1.26 • 2020-AUG-03 \n166/235\n \n© 2019 TRINAMIC Motion Control GmbH & Co. KG, Hamburg, Germany — Terms of delivery and ri"
+          }
+        ]
+      }
+    ]
+  }
+]

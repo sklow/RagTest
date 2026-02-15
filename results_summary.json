@@ -1,0 +1,17 @@
+{
+  "pdf_path": "/Users/seigo/Desktop/working/RagTest/TMC4361A_datasheet_rev1.26_01.pdf",
+  "chunk_statistics": {
+    "total_chunks": 1148,
+    "chunk_size": 512,
+    "chunk_overlap": 50,
+    "avg_length": 543.0426829268292
+  },
+  "model": "all-MiniLM-L6-v2",
+  "test_queries": [
+    "What is the maximum voltage?",
+    "TMC4361A features and specifications",
+    "SPI interface configuration",
+    "Current control settings",
+    "Motor control operation"
+  ]
+}
