@@ -1,0 +1,399 @@
+{
+  "model": "BAAI/bge-m3",
+  "document": "nihonkokukenpou.pdf",
+  "alpha": 0.7,
+  "init_time_sec": 4.4,
+  "encode_time_sec": 137.8,
+  "num_chunks": 27,
+  "dense_dim": 1024,
+  "avg_dense_top1": 0.6136,
+  "avg_sparse_top1": 0.1367,
+  "avg_hybrid_top1": 0.9828,
+  "queries": [
+    {
+      "query": "国民の基本的人権について",
+      "dense_top1_score": 0.6373672485351562,
+      "sparse_top1_score": 0.11854935809969902,
+      "hybrid_top1_score": 0.9839691686332555,
+      "dense_top1_id": "chunk_4",
+      "sparse_top1_id": "chunk_25",
+      "hybrid_top1_id": "chunk_4",
+      "hybrid_top3": [
+        {
+          "id": "chunk_4",
+          "combined_score": 0.9839691686332555,
+          "dense_norm": 1.0,
+          "sparse_norm": 0.9465639351806144,
+          "dense_raw": 0.6373672485351562,
+          "sparse_raw": 0.11523078009486198
+        },
+        {
+          "id": "chunk_25",
+          "combined_score": 0.904527235031128,
+          "dense_norm": 0.8636103868484497,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.6274319887161255,
+          "sparse_raw": 0.11854935809969902
+        },
+        {
+          "id": "chunk_5",
+          "combined_score": 0.675877252027306,
+          "dense_norm": 0.8201534748077393,
+          "sparse_norm": 0.3392328116791547,
+          "dense_raw": 0.6242663860321045,
+          "sparse_raw": 0.07751326262950897
+        }
+      ]
+    },
+    {
+      "query": "表現の自由とは何か",
+      "dense_top1_score": 0.5696253776550293,
+      "sparse_top1_score": 0.1054866723716259,
+      "hybrid_top1_score": 0.9999999880790711,
+      "dense_top1_id": "chunk_7",
+      "sparse_top1_id": "chunk_7",
+      "hybrid_top1_id": "chunk_7",
+      "hybrid_top3": [
+        {
+          "id": "chunk_7",
+          "combined_score": 0.9999999880790711,
+          "dense_norm": 1.0,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.5696253776550293,
+          "sparse_raw": 0.1054866723716259
+        },
+        {
+          "id": "chunk_6",
+          "combined_score": 0.5069235332974615,
+          "dense_norm": 0.5323830246925354,
+          "sparse_norm": 0.44751805337562245,
+          "dense_raw": 0.48295778036117554,
+          "sparse_raw": 0.047207190276822075
+        },
+        {
+          "id": "chunk_5",
+          "combined_score": 0.4245527868789301,
+          "dense_norm": 0.48311930894851685,
+          "sparse_norm": 0.2878975488483461,
+          "dense_raw": 0.4738273024559021,
+          "sparse_raw": 0.030369354411959648
+        }
+      ]
+    },
+    {
+      "query": "生存権の保障について",
+      "dense_top1_score": 0.5972926616668701,
+      "sparse_top1_score": 0.13914218537684064,
+      "hybrid_top1_score": 0.9999999880790711,
+      "dense_top1_id": "chunk_8",
+      "sparse_top1_id": "chunk_8",
+      "hybrid_top1_id": "chunk_8",
+      "hybrid_top3": [
+        {
+          "id": "chunk_8",
+          "combined_score": 0.9999999880790711,
+          "dense_norm": 1.0,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.5972926616668701,
+          "sparse_raw": 0.13914218537684064
+        },
+        {
+          "id": "chunk_7",
+          "combined_score": 0.7587657895274734,
+          "dense_norm": 0.7177467942237854,
+          "sparse_norm": 0.8544767984376269,
+          "dense_raw": 0.5646697282791138,
+          "sparse_raw": 0.12889905273914337
+        },
+        {
+          "id": "chunk_5",
+          "combined_score": 0.43902799958928135,
+          "dense_norm": 0.5220102667808533,
+          "sparse_norm": 0.2454027690802583,
+          "dense_raw": 0.5420464277267456,
+          "sparse_raw": 0.08602735941531137
+        }
+      ]
+    },
+    {
+      "query": "内閣総理大臣の権限",
+      "dense_top1_score": 0.6848441362380981,
+      "sparse_top1_score": 0.22262044437229633,
+      "hybrid_top1_score": 0.9903097697656609,
+      "dense_top1_id": "chunk_18",
+      "sparse_top1_id": "chunk_17",
+      "hybrid_top1_id": "chunk_18",
+      "hybrid_top3": [
+        {
+          "id": "chunk_18",
+          "combined_score": 0.9903097697656609,
+          "dense_norm": 1.0,
+          "sparse_norm": 0.9676992722886325,
+          "dense_raw": 0.6848441362380981,
+          "sparse_raw": 0.2192890714504756
+        },
+        {
+          "id": "chunk_17",
+          "combined_score": 0.9730133891105652,
+          "dense_norm": 0.9614477157592773,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.6782345771789551,
+          "sparse_raw": 0.22262044437229633
+        },
+        {
+          "id": "chunk_3",
+          "combined_score": 0.5955519126754624,
+          "dense_norm": 0.5675995349884033,
+          "sparse_norm": 0.6607741272786002,
+          "dense_raw": 0.6107116937637329,
+          "sparse_raw": 0.18763399153249338
+        }
+      ]
+    },
+    {
+      "query": "国会の役割と権限",
+      "dense_top1_score": 0.6420459151268005,
+      "sparse_top1_score": 0.1395918307825923,
+      "hybrid_top1_score": 0.8979851164934449,
+      "dense_top1_id": "chunk_16",
+      "sparse_top1_id": "chunk_26",
+      "hybrid_top1_id": "chunk_11",
+      "hybrid_top3": [
+        {
+          "id": "chunk_11",
+          "combined_score": 0.8979851164934449,
+          "dense_norm": 0.9650084972381592,
+          "sparse_norm": 0.7415972678255415,
+          "dense_raw": 0.638518214225769,
+          "sparse_raw": 0.12187759298831224
+        },
+        {
+          "id": "chunk_16",
+          "combined_score": 0.7645410091598193,
+          "dense_norm": 1.0,
+          "sparse_norm": 0.21513673693582716,
+          "dense_raw": 0.6420459151268005,
+          "sparse_raw": 0.08578723529353738
+        },
+        {
+          "id": "chunk_26",
+          "combined_score": 0.6715336918830872,
+          "dense_norm": 0.5307624340057373,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.5947392582893372,
+          "sparse_raw": 0.1395918307825923
+        }
+      ]
+    },
+    {
+      "query": "裁判所の独立性",
+      "dense_top1_score": 0.5641801953315735,
+      "sparse_top1_score": 0.09794381418032572,
+      "hybrid_top1_score": 0.9999999880790711,
+      "dense_top1_id": "chunk_19",
+      "sparse_top1_id": "chunk_19",
+      "hybrid_top1_id": "chunk_19",
+      "hybrid_top3": [
+        {
+          "id": "chunk_19",
+          "combined_score": 0.9999999880790711,
+          "dense_norm": 1.0,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.5641801953315735,
+          "sparse_raw": 0.09794381418032572
+        },
+        {
+          "id": "chunk_20",
+          "combined_score": 0.9245121089510051,
+          "dense_norm": 0.9938896894454956,
+          "sparse_norm": 0.7626311672700533,
+          "dense_raw": 0.5631471872329712,
+          "sparse_raw": 0.07472106846398674
+        },
+        {
+          "id": "chunk_21",
+          "combined_score": 0.8671243088267346,
+          "dense_norm": 0.9032223224639893,
+          "sparse_norm": 0.7828956500762368,
+          "dense_raw": 0.5478188991546631,
+          "sparse_raw": 0.07670362415956333
+        }
+      ]
+    },
+    {
+      "query": "天皇の地位と役割",
+      "dense_top1_score": 0.7117395401000977,
+      "sparse_top1_score": 0.1689368870574981,
+      "hybrid_top1_score": 0.9999999880790711,
+      "dense_top1_id": "chunk_2",
+      "sparse_top1_id": "chunk_2",
+      "hybrid_top1_id": "chunk_2",
+      "hybrid_top3": [
+        {
+          "id": "chunk_2",
+          "combined_score": 0.9999999880790711,
+          "dense_norm": 1.0,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.7117395401000977,
+          "sparse_raw": 0.1689368870574981
+        },
+        {
+          "id": "chunk_3",
+          "combined_score": 0.5952496039121995,
+          "dense_norm": 0.5526653528213501,
+          "sparse_norm": 0.6946128961939443,
+          "dense_raw": 0.6050141453742981,
+          "sparse_raw": 0.11886189132928848
+        },
+        {
+          "id": "chunk_25",
+          "combined_score": 0.2525450224345011,
+          "dense_norm": 0.16934289038181305,
+          "sparse_norm": 0.446683345458601,
+          "dense_raw": 0.5135608315467834,
+          "sparse_raw": 0.07820833707228303
+        }
+      ]
+    },
+    {
+      "query": "戦争の放棄について",
+      "dense_top1_score": 0.6118338108062744,
+      "sparse_top1_score": 0.12701938237296417,
+      "hybrid_top1_score": 0.9999999880790711,
+      "dense_top1_id": "chunk_4",
+      "sparse_top1_id": "chunk_4",
+      "hybrid_top1_id": "chunk_4",
+      "hybrid_top3": [
+        {
+          "id": "chunk_4",
+          "combined_score": 0.9999999880790711,
+          "dense_norm": 1.0,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.6118338108062744,
+          "sparse_raw": 0.12701938237296417
+        },
+        {
+          "id": "chunk_1",
+          "combined_score": 0.47968854055687354,
+          "dense_norm": 0.5429086089134216,
+          "sparse_norm": 0.3321750477249279,
+          "dense_raw": 0.4885312020778656,
+          "sparse_raw": 0.04258563890471123
+        },
+        {
+          "id": "chunk_7",
+          "combined_score": 0.2829355001449585,
+          "dense_norm": 0.40419358015060425,
+          "sparse_norm": 0.0,
+          "dense_raw": 0.45111215114593506,
+          "sparse_raw": 0.0005884318961761892
+        }
+      ]
+    },
+    {
+      "query": "教育を受ける権利",
+      "dense_top1_score": 0.6419168710708618,
+      "sparse_top1_score": 0.14780951442662627,
+      "hybrid_top1_score": 0.9999999880790711,
+      "dense_top1_id": "chunk_8",
+      "sparse_top1_id": "chunk_8",
+      "hybrid_top1_id": "chunk_8",
+      "hybrid_top3": [
+        {
+          "id": "chunk_8",
+          "combined_score": 0.9999999880790711,
+          "dense_norm": 1.0,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.6419168710708618,
+          "sparse_raw": 0.14780951442662627
+        },
+        {
+          "id": "chunk_7",
+          "combined_score": 0.392607357182305,
+          "dense_norm": 0.41772544384002686,
+          "sparse_norm": 0.33399848831428736,
+          "dense_raw": 0.5440267324447632,
+          "sparse_raw": 0.0853971135802567
+        },
+        {
+          "id": "chunk_5",
+          "combined_score": 0.21997627514339374,
+          "dense_norm": 0.2673279345035553,
+          "sparse_norm": 0.10948906003557597,
+          "dense_raw": 0.5187423825263977,
+          "sparse_raw": 0.06435786338988692
+        }
+      ]
+    },
+    {
+      "query": "国民が自由に意見を述べる権利",
+      "dense_top1_score": 0.6120219230651855,
+      "sparse_top1_score": 0.09543875453528017,
+      "hybrid_top1_score": 0.9528324649503224,
+      "dense_top1_id": "chunk_7",
+      "sparse_top1_id": "chunk_8",
+      "hybrid_top1_id": "chunk_5",
+      "hybrid_top3": [
+        {
+          "id": "chunk_5",
+          "combined_score": 0.9528324649503224,
+          "dense_norm": 0.9825734496116638,
+          "sparse_norm": 0.8834368142056439,
+          "dense_raw": 0.610733151435852,
+          "sparse_raw": 0.09188973379787058
+        },
+        {
+          "id": "chunk_8",
+          "combined_score": 0.8501834750175477,
+          "dense_norm": 0.7859764099121094,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.5961939096450806,
+          "sparse_raw": 0.09543875453528017
+        },
+        {
+          "id": "chunk_7",
+          "combined_score": 0.699999988079071,
+          "dense_norm": 1.0,
+          "sparse_norm": 0.0,
+          "dense_raw": 0.6120219230651855,
+          "sparse_raw": 0.06499157077632844
+        }
+      ]
+    },
+    {
+      "query": "健康で文化的な生活",
+      "dense_top1_score": 0.4770839214324951,
+      "sparse_top1_score": 0.14110952010378242,
+      "hybrid_top1_score": 0.9861740350723267,
+      "dense_top1_id": "chunk_7",
+      "sparse_top1_id": "chunk_8",
+      "hybrid_top1_id": "chunk_8",
+      "hybrid_top3": [
+        {
+          "id": "chunk_8",
+          "combined_score": 0.9861740350723267,
+          "dense_norm": 0.9802486300468445,
+          "sparse_norm": 1.0,
+          "dense_raw": 0.4732930660247803,
+          "sparse_raw": 0.14110952010378242
+        },
+        {
+          "id": "chunk_7",
+          "combined_score": 0.9421823094600941,
+          "dense_norm": 1.0,
+          "sparse_norm": 0.80727440460341,
+          "dense_raw": 0.4770839214324951,
+          "sparse_raw": 0.11418120749294758
+        },
+        {
+          "id": "chunk_5",
+          "combined_score": 0.46052770647197766,
+          "dense_norm": 0.6543908715248108,
+          "sparse_norm": 0.008180301480485451,
+          "dense_raw": 0.41075167059898376,
+          "sparse_raw": 0.0025289084296673536
+        }
+      ]
+    }
+  ]
+}

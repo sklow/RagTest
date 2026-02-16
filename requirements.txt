@@ -11,6 +11,9 @@ torch
 transformers
 tokenizers
 
+# BGE-M3 (learned sparse embedding)
+FlagEmbedding
+
 # ユーティリティ
 numpy
 tqdm
