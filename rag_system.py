@@ -12,13 +12,16 @@ import math
 
 
 class HybridRAGSystem:
-    def __init__(self, collection_name: str = "rag_documents", model_name: str = "all-MiniLM-L6-v2"):
+    def __init__(self, collection_name: str = "rag_documents", model_name: str = "all-MiniLM-L6-v2",
+                 persist_directory: str = None, reset: bool = True):
         """
         Args:
             collection_name: ChromaDBのコレクション名
             model_name: Sentence Transformersのモデル名
                        - all-MiniLM-L6-v2: 軽量で高速（384次元）
                        - paraphrase-multilingual-MiniLM-L12-v2: 多言語対応
+            persist_directory: 永続化ディレクトリ（Noneならインメモリ）
+            reset: Trueならコレクションをリセット（既存データを破棄）
         """
         print(f"Initializing RAG system with model: {model_name}")
 
@@ -26,23 +29,30 @@ class HybridRAGSystem:
         self.dense_model = SentenceTransformer(model_name)
 
         # ChromaDB クライアント
-        self.client = chromadb.Client(Settings(
-            anonymized_telemetry=False,
-            allow_reset=True
-        ))
+        if persist_directory:
+            self.client = chromadb.PersistentClient(
+                path=persist_directory,
+                settings=Settings(anonymized_telemetry=False)
+            )
+        else:
+            self.client = chromadb.Client(Settings(
+                anonymized_telemetry=False,
+                allow_reset=True
+            ))
 
         # コレクションの初期化
-        try:
-            self.client.delete_collection(collection_name)
-        except:
-            pass
+        if reset:
+            try:
+                self.client.delete_collection(collection_name)
+            except:
+                pass
 
-        self.collection = self.client.create_collection(
+        self.collection = self.client.get_or_create_collection(
             name=collection_name,
             metadata={"hnsw:space": "cosine"}
         )
 
-        print(f"Collection '{collection_name}' initialized")
+        print(f"Collection '{collection_name}' initialized (count: {self.collection.count()})")
 
     def compute_dense_embedding(self, text: str) -> List[float]:
         """Dense embeddingを計算"""

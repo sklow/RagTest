@@ -11,6 +11,7 @@ PDF_PATH = "/Users/seigo/Desktop/working/RagTest/nihonkokukenpou.pdf"
 MODEL_NAME = "cl-nagoya/ruri-v3-310m"
 CHUNK_SIZE = 512
 CHUNK_OVERLAP = 50
+PERSIST_DIR = "/Users/seigo/Desktop/working/RagTest/.chromadb_interactive"
 
 
 def print_header():
@@ -61,17 +62,23 @@ def print_hybrid_results(results, elapsed):
 
 
 def init_system():
-    print("\n[初期化中] PDF読み込み...")
-    processor = PDFProcessor(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
-    chunks = processor.process_pdf(PDF_PATH)
-    print(f"  チャンク数: {len(chunks)}")
-
-    print("\n[初期化中] ruri-v3-310m ロード & エンベディング...")
+    print("\n[初期化中] ruri-v3-310m ロード...")
     rag = HybridRAGSystem(
         collection_name="interactive_ruri_kenpo",
-        model_name=MODEL_NAME
+        model_name=MODEL_NAME,
+        persist_directory=PERSIST_DIR,
+        reset=False
     )
-    rag.add_documents(chunks)
+
+    if rag.collection.count() > 0:
+        print(f"  キャッシュ済み ({rag.collection.count()}チャンク)")
+    else:
+        print("[初期化中] PDF読み込み & エンベディング...")
+        processor = PDFProcessor(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
+        chunks = processor.process_pdf(PDF_PATH)
+        print(f"  チャンク数: {len(chunks)}")
+        rag.add_documents(chunks)
+
     print("  準備完了")
     return rag
 
@@ -83,7 +90,7 @@ def main():
 
     mode = "hybrid"
     alpha = 0.7
-    top_k = 3
+    top_k = 1
 
     print_help()
     print_status(mode, alpha, top_k)
@@ -98,7 +105,7 @@ def main():
         if not query:
             continue
 
-        if query == "/quit" or query == "/exit":
+        if query in ("/quit", "/exit", "exit", "quit"):
             print("終了します。")
             break
 

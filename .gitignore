@@ -9,6 +9,9 @@ __pycache__/
 # HuggingFace model cache
 .cache/
 
+# ChromaDB persistent storage
+.chromadb_*/
+
 # PDF data (large binary)
 *.pdf
 
