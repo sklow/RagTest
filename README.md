@@ -57,6 +57,7 @@ def weighted_fusion(dense_scores, sparse_scores, alpha):
 ├── rag_system.py                # RAGシステム本体
 ├── main.py                      # メイン実行スクリプト
 ├── evaluation.py                # 評価スクリプト
+├── interactive_ruri.py          # ruri-v3-310m インタラクティブ検索CUI
 ├── results_summary.json         # 基本実行結果
 ├── evaluation_results.json      # 詳細評価結果
 └── TMC4361A_datasheet_rev1.26_01.pdf  # テストデータ
@@ -83,6 +84,34 @@ python main.py
 ```bash
 python evaluation.py
 ```
+
+### 4. インタラクティブ検索 (ruri-v3-310m × 日本国憲法)
+
+```bash
+python interactive_ruri.py
+```
+
+起動後、クエリを入力すると検索結果が表示されます。
+
+```
+[hybrid] > 表現の自由とは何か
+```
+
+**コマンド一覧:**
+
+| コマンド | 説明 |
+|---------|------|
+| (テキスト入力) | 検索クエリとして実行 |
+| `/mode` | 検索モード切替 (dense ↔ hybrid) |
+| `/alpha <値>` | alphaパラメータ変更 (0.0〜1.0) |
+| `/top <数>` | 表示件数変更 (1〜10) |
+| `/status` | 現在の設定を表示 |
+| `/help` | ヘルプ表示 |
+| `/quit` | 終了 |
+
+- デフォルト: hybridモード、alpha=0.7、表示3件
+- `/mode` でdense単体検索に切り替え可能
+- 注意: 初回起動時にモデルダウンロード（約1.2GB）が発生します。`sentencepiece` パッケージが必要です
 
 ## 評価結果
 
